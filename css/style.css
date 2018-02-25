@@ -1,0 +1,259 @@
+@font-face {
+    font-family: 'Stardew Valley';
+    src: url('../fonts/stardewValley.ttf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Stardew Valley';
+    src: url('../fonts/stardewValley.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Stardew Valley Funky';
+    src: url('../fonts/stardewValleyFunky.ttf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Stardew Valley Funky';
+    src: url('../fonts/stardewValleyFunky.ttf');
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Stardew Valley' !important;
+    background-image: url('../img/background.png');
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 24px;
+    pointer-events: none;
+}
+
+body * {
+    pointer-events: all;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Stardew Valley Funky';
+}
+
+a {
+    cursor: pointer;
+    color: blue;
+}
+
+a:hover {
+    color: rgb(119, 119, 255);
+}
+
+#wrapper {
+    margin: 50px;
+    pointer-events: none;
+}
+
+header {
+    color: white;
+}
+
+header .logo {
+    height: 75px;
+}
+
+header h1 {
+    display: inline-block;
+}
+
+nav {
+    pointer-events: none;
+    z-index: 1;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    pointer-events: none;
+}
+
+nav ul li {
+    display: inline-block;
+    pointer-events: none;
+}
+
+nav .nav-tab {
+    display: inline-block;
+    width: 60px;
+    padding: 10px;
+    background-color: rgb(177, 122, 51);
+    border-radius: 10px 10px 0 0;
+    text-decoration: none;
+    border: 5px solid #AC3E0B;
+    border-bottom: none;
+    position: relative;
+    top: 5px;
+    text-align: center;
+    color: black;
+    z-index: -1;
+    pointer-events: all;
+}
+
+nav .nav-tab.selected {
+    background-color: #FDBA64;
+    z-index: 1;
+}
+
+#content {
+    padding: 10px;
+    background-color: #FDBA64;
+    border: 5px solid #AC3E0B;
+    border-radius: 0 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.tab-area {
+    display: none;
+}
+
+.tab-area.open {
+    display: block;
+}
+
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0 10px 0;
+}
+
+.top-buttons {
+    flex-grow: 1;
+}
+
+.search-bar {
+    width: 150px;
+    font-family: 'Stardew Valley';
+    font-size: 25px;
+    padding: 5px;
+    background-color: rgb(231, 171, 91);
+    border: 2px solid #AC3E0B;
+    border-radius: 5px;
+}
+
+.no-results {
+    display: none;
+    grid-column: span 6;
+    padding: 30px 0 30px 10px;
+}
+
+.main-area {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+#gifts-table {
+    display: grid;
+    grid-template-columns: min-content min-content 1.5fr 1fr 3fr 1fr;
+    grid-row-gap: 15px;
+    grid-column-gap: 5px;
+}
+
+#gifts-table .cell {
+    padding: 10px;
+    background-color: rgb(247, 212, 167);
+    box-shadow: 5px 5px rgb(209, 154, 81);
+}
+
+#gifts-table .cell ul {
+    margin: 0;
+}
+
+#gifts-table .table-header {
+    background-color: #D76630;
+}
+
+#gifts-table .table-header h2 {
+    display: inline-block;
+}
+
+.table-header img {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.spans2 {
+    grid-column: span 2;
+}
+
+h2 {
+    font-family: 'Stardew Valley Funky';
+    font-size: 30px;
+    margin: 0;
+}
+
+#gifts-table .villager-img-cell {
+    background-color: #FDBA64;
+    padding: 0;
+    height: fit-content;
+    width: fit-content;
+    border: 5px solid #AC3E0B;
+}
+
+.villager-img {
+    width: 65px;
+    margin-bottom: -5px;
+}
+
+.gift-img {
+    width: 25px;
+    display: inline-block;
+    padding: 0;
+}
+
+.gift-img img {
+    width: 100%;
+    margin: 0;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    pointer-events: none;
+}
+
+.button {
+    border: 5px solid #AC3E0B;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(252, 204, 141);
+}
+
+.button:hover {
+    background-color: rgb(255, 219, 172);
+    color: black;
+}
+
+#universal-panel {
+    flex-basis: 300px;
+    flex-shrink: 0;
+    padding: 20px;
+    background-color: rgb(247, 212, 167);
+    box-shadow: 5px 5px rgb(209, 154, 81);
+    margin-left: 10px;
+    border: 5px solid #AC3E0B;
+    position: relative;
+}
+
+#universal-panel .content {
+    margin-bottom: 20px;
+}
+
+#universal-panel .content div {
+    margin-bottom: 10px;
+}

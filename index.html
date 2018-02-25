@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Stardew Valley Assistant</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+        <script src="js/jquery.js"></script>
+        <script src="js/villager_data.js"></script>
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <img class="logo" src="img/stardew-logo.png">
+                <h1>Assistant</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li><a data-tab="gifts" class="nav-tab selected" href="#">Gifts</a></li>
+                    <li><a data-tab="bundles" class="nav-tab" href="#">Bundles</a></li>
+                    <li><a data-tab="crops" class="nav-tab" href="#">Crops</a></li>
+                    <li><a data-tab="map" class="nav-tab" href="#">Map</a></li>
+                    <li><a data-tab="about" class="nav-tab" href="#">About</a></li>
+                </ul>
+            </nav>
+            <section id="content">
+                <div class="tab-area gifts open">
+                    <div class="top-bar">
+                        <div class="top-buttons">
+                            <a href="https://stardewvalleywiki.com/Villagers" class="button">List of Villagers</a>
+                            <a href="https://stardewvalleywiki.com/Villagers" class="button">Friendship</a>
+                            <a class="universal-toggle button">Toggle Universal</a>
+                        </div>
+                        <div class="search">
+                            <input class="search-bar" type="text">
+                        </div>
+                    </div>
+                    <div class="main-area">
+                        <div id="gifts-table">
+                            <div class="spans2 cell table-header"><h2>Villager</h2></div>
+                            <div class="spans2 cell table-header"><img src="img/heart.png"><h2>Loves</h2></div>
+                            <div class="spans2 cell table-header"><img src="img/happy.png"><h2>Likes</h2></div>
+                            <div class="no-results">No Results</div>
+                        </div>
+                        <div id="universal-panel">
+                            <h2>Universal Loves</h2>
+                            <div class="content">
+                                <a class="gift-img fancy-tooltip" href="https://stardewvalleywiki.com/Prismatic_Shard" title="Prismatic Shard"><img src="https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png"></a>
+                                <a class="gift-img fancy-tooltip" href="https://stardewvalleywiki.com/Rabbit%27s_Foot" title="Rabbit's Foot"><img src="https://stardewvalleywiki.com/mediawiki/images/thumb/c/ca/Rabbit%27s_Foot.png/24px-Rabbit%27s_Foot.png"></a>
+                            </div>
+                            <h2>Universal Likes</h2>
+                            <div class="content">
+                                <div><a href="https://stardewvalleywiki.com/Artisan_Goods" title="Artisan Goods">All Artisan Goods</a> (Except for <a class="gift-img fancy-tooltip" href="https://stardewvalleywiki.com/Oil" title="Oil"><img src="https://stardewvalleywiki.com/mediawiki/images/0/06/Oil.png"></a> which is disdivked, and <a class="gift-img fancy-tooltip" href="https://stardewvalleywiki.com/Void_Mayonnaise" title="Void Mayonnaise"><img src="https://stardewvalleywiki.com/mediawiki/images/f/f3/Void_Mayonnaise.png"></a> which is hated)</div>
+                                <div><a href="https://stardewvalleywiki.com/Cooking" title="Cooking">All Cooking</a> (Except for <a class="gift-img fancy-tooltip" href="https://stardewvalleywiki.com/Fried_Egg" title="Fried Egg"><img src="https://stardewvalleywiki.com/mediawiki/images/1/18/Fried_Egg.png"></a> and <a class="gift-img fancy-tooltip" href="https://stardewvalleywiki.com/Bread" title="Bread"><img src="https://stardewvalleywiki.com/mediawiki/images/e/e1/Bread.png"></a>, which are universally neutral, and <a class="gift-img fancy-tooltip" href="https://stardewvalleywiki.com/Strange_Bun" title="Strange Bun"><img src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Strange_Bun.png"></a> which is hated)</div>
+                                <div><a href="https://stardewvalleywiki.com/Flowers" title="Flowers">All Flowers</a> (Except for <a class="gift-img fancy-tooltip" href="https://stardewvalleywiki.com/Poppy" title="Poppy"><img src="https://stardewvalleywiki.com/mediawiki/images/3/37/Poppy.png"></a> which is hated)</div>
+                                <div><a href="https://stardewvalleywiki.com/Minerals#Foraged_Minerals" title="Minerals">All Foraged Minerals</a> (Except <a class="gift-img fancy-tooltip" href="https://stardewvalleywiki.com/Quartz" title="Quartz"><img src="https://stardewvalleywiki.com/mediawiki/images/c/cf/Quartz.png"></a> which varies by <a href="https://stardewvalleywiki.com/Villagers" title="Villagers">villager</a>)</div>
+                                <div><a href="https://stardewvalleywiki.com/Fruit_Trees" title="Fruit Trees">All Fruit Tree Fruits </a></div>
+                                <div><a href="https://stardewvalleywiki.com/Minerals#Gems" title="Minerals">All Gems</a> (Except <a class="gift-img fancy-tooltip" href="https://stardewvalleywiki.com/Prismatic_Shard" title="Prismatic Shard"><img src="https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png"></a> which is Loved)</div>
+                                <div><a href="https://stardewvalleywiki.com/Vegetables" title="Vegetables">All Vegetables</a> including <a class="gift-img fancy-tooltip" href="https://stardewvalleywiki.com/Fiddlehead_Fern" title="Fiddlehead Fern"><img src="https://stardewvalleywiki.com/mediawiki/images/4/48/Fiddlehead_Fern.png"></a> (Except <a class="gift-img fancy-tooltip" href="https://stardewvalleywiki.com/Wheat" title="Wheat"><img src="https://stardewvalleywiki.com/mediawiki/images/e/e2/Wheat.png"></a> and <a class="gift-img fancy-tooltip" href="https://stardewvalleywiki.com/Hops" title="Hops"><img src="https://stardewvalleywiki.com/mediawiki/images/5/59/Hops.png"></a> which are Universal Neutrals)</div>
+                                <div><a class="gift-img fancy-tooltip" href="https://stardewvalleywiki.com/divfe_Elixir" title="Life Elixir"><img src="https://stardewvalleywiki.com/mediawiki/images/6/6e/Life_Elixir.png"></a><a class="gift-img fancy-tooltip" href="https://stardewvalleywiki.com/Maple_Syrup" title="Maple Syrup"><img src="https://stardewvalleywiki.com/mediawiki/images/6/6a/Maple_Syrup.png"></a></li>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-area map">
+                    <img src="img/map.png">
+                </div>
+            </section>
+            <footer>
+
+            </footer>
+        </div>
+    </body>
+</html>
