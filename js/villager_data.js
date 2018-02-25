@@ -3,6 +3,7 @@ let villager_data = {
         {
             "name": "Alex",
             "image": "https://stardewvalleywiki.com/mediawiki/images/0/04/Alex.png",
+            "url": "https://stardewvalleywiki.com/Alex",
             "gifts": {
                 "love": {
                     "broad": [
@@ -24,7 +25,7 @@ let villager_data = {
                 "like": {
                     "broad": [
                         "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b>",
-                        "<b>All Eggs</b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></div>)</i>"
+                        "<b>All Eggs</b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Void_Egg\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></a>)</i>"
                     ],
                     "specific": []
                 },
@@ -126,6 +127,7 @@ let villager_data = {
         {
             "name": "Elliott",
             "image": "https://stardewvalleywiki.com/mediawiki/images/b/bd/Elliott.png",
+            "url": "https://stardewvalleywiki.com/Elliott",
             "gifts": {
                 "love": {
                     "broad": [
@@ -161,8 +163,8 @@ let villager_data = {
                 },
                 "like": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Amaranth\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f6/Amaranth.png\"/></div> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Pizza\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f4/Pizza.png\"/></div>)</i>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Pomegranate\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/1/1b/Pomegranate.png\"/></div> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Amaranth\" title=\"Amaranth\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f6/Amaranth.png\"/></a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Pizza\" title=\"Pizza\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f4/Pizza.png\"/></a>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Pomegranate\" title=\"Pomegranate\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/1/1b/Pomegranate.png\"/></a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Salmonberry\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -179,9 +181,9 @@ let villager_data = {
                 },
                 "neutral": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Neutrals\" title=\"Friendship\">Universal Neutrals</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Duck Feather\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f9/Duck_Feather.png\"/></div>)</i>",
-                        "<b>All Eggs</b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></div>)</i>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fish#Fish_Types\" title=\"Fish\">Fish</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Carp\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a8/Carp.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Lobster\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/9/9f/Lobster.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Octopus\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/5a/Octopus.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Sea Cucumber\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a9/Sea_Cucumber.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Snail\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/d/d2/Snail.png\"/></div>, &amp; <div class=\"gift-img fancy-tooltip\" title=\"Squid\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/81/Squid.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Neutrals\" title=\"Friendship\">Universal Neutrals</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Duck_Feather\" title=\"Duck Feather\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f9/Duck_Feather.png\"/></a>)</i>",
+                        "<b>All Eggs</b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Void_Egg\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></a>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fish#Fish_Types\" title=\"Fish\">Fish</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Carp\" title=\"Carp\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a8/Carp.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Lobster\" title=\"Lobster\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/9/9f/Lobster.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Octopus\" title=\"Octopus\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/5a/Octopus.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Sea_Cucumber\" title=\"Sea Cucumber\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a9/Sea_Cucumber.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Snail\" title=\"Snail\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/d/d2/Snail.png\"/></a>, &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Squid\" title=\"Squid\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/81/Squid.png\"/></a>)</i>"
                     ],
                     "specific": []
                 },
@@ -290,6 +292,7 @@ let villager_data = {
         {
             "name": "Harvey",
             "image": "https://stardewvalleywiki.com/mediawiki/images/9/95/Harvey.png",
+            "url": "https://stardewvalleywiki.com/Harvey",
             "gifts": {
                 "love": {
                     "broad": [
@@ -325,8 +328,8 @@ let villager_data = {
                 },
                 "like": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Cheese\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a5/Cheese.png\"/></div> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Goat Cheese\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/c8/Goat_Cheese.png\"/></div>)</i>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></div> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Spice Berry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/c6/Spice_Berry.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Cheese\" title=\"Cheese\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a5/Cheese.png\"/></a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Goat_Cheese\" title=\"Goat Cheese\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/c8/Goat_Cheese.png\"/></a>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Salmonberry\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Spice_Berry\" title=\"Spice Berry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/c6/Spice_Berry.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -423,8 +426,8 @@ let villager_data = {
                 },
                 "neutral": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Neutrals\" title=\"Friendship\">Universal Neutrals</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Duck Feather\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f9/Duck_Feather.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Bread\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/e1/Bread.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Coral\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/b/b1/Coral.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Nautilus Shell\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a4/Nautilus_Shell.png\"/></div>, &amp; <div class=\"gift-img fancy-tooltip\" title=\"Rainbow Shell\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/3/3d/Rainbow_Shell.png\"/></div>)</i>",
-                        "<b>All Eggs</b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Duck Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/3/31/Duck_Egg.png\"/></div> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Neutrals\" title=\"Friendship\">Universal Neutrals</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Duck_Feather\" title=\"Duck Feather\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f9/Duck_Feather.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Bread\" title=\"Bread\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/e1/Bread.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Coral\" title=\"Coral\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/b/b1/Coral.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Nautilus_Shell\" title=\"Nautilus Shell\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a4/Nautilus_Shell.png\"/></a>, &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Rainbow_Shell\" title=\"Rainbow Shell\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/3/3d/Rainbow_Shell.png\"/></a>)</i>",
+                        "<b>All Eggs</b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Duck_Egg\" title=\"Duck Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/3/31/Duck_Egg.png\"/></a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Void_Egg\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -441,7 +444,7 @@ let villager_data = {
                 },
                 "dislike": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Spring Onion\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/0/0c/Spring_Onion.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Spring_Onion\" title=\"Spring Onion\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/0/0c/Spring_Onion.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -498,6 +501,7 @@ let villager_data = {
         {
             "name": "Sam",
             "image": "https://stardewvalleywiki.com/mediawiki/images/9/94/Sam.png",
+            "url": "https://stardewvalleywiki.com/Sam",
             "gifts": {
                 "love": {
                     "broad": [
@@ -528,8 +532,8 @@ let villager_data = {
                 },
                 "like": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Duck Mayonnaise\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/2/23/Duck_Mayonnaise.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Mayonnaise\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/4/4e/Mayonnaise.png\"/></div>, <a href=\"https://stardewvalleywiki.com/Jellies_and_Pickles\" title=\"Jellies and Pickles\">Pickles</a>, &amp; <a href=\"https://stardewvalleywiki.com/Vegetables\" title=\"Vegetables\">Vegetables</a>)</i>",
-                        "<b>All Eggs</b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Duck_Mayonnaise\" title=\"Duck Mayonnaise\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/2/23/Duck_Mayonnaise.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Mayonnaise\" title=\"Mayonnaise\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/4/4e/Mayonnaise.png\"/></a>, <a href=\"https://stardewvalleywiki.com/Jellies_and_Pickles\" title=\"Jellies and Pickles\">Pickles</a>, &amp; <a href=\"https://stardewvalleywiki.com/Vegetables\" title=\"Vegetables\">Vegetables</a>)</i>",
+                        "<b>All Eggs</b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Void_Egg\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -542,15 +546,15 @@ let villager_data = {
                 "neutral": {
                     "broad": [
                         "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Neutrals\" title=\"Friendship\">Universal Neutrals</a></b>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Cactus Fruit\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/3/32/Cactus_Fruit.png\"/></div>, <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a>, &amp; <div class=\"gift-img fancy-tooltip\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></div>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Cactus_Fruit\" title=\"Cactus Fruit\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/3/32/Cactus_Fruit.png\"/></a>, <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a>, &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Salmonberry\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></a>)</i>",
                         "<b>All Milk</b>"
                     ],
                     "specific": []
                 },
                 "dislike": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except  <div class=\"gift-img fancy-tooltip\" title=\"Coal\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a7/Coal.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Copper Bars\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f1/Copper_Bar.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Gold Bars\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/4/4e/Gold_Bar.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Gold Ore\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f7/Gold_Ore.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Iridium Bars\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/c4/Iridium_Bar.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Iridium Ore\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/e9/Iridium_Ore.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Iron Bars\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/6/6c/Iron_Bar.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Refined Quartz\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/9/98/Refined_Quartz.png\"/></div>, &amp; <div class=\"gift-img fancy-tooltip\" title=\"Tigerseye\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/6/6e/Tigerseye.png\"/></div>)</i>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Vegetables\" title=\"Vegetables\">Vegetables</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Hops\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Hops.png\"/></div> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Wheat\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/e2/Wheat.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except  <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Coal\" title=\"Coal\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a7/Coal.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Copper_Bar\" title=\"Copper Bars\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f1/Copper_Bar.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Gold_Bar\" title=\"Gold Bars\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/4/4e/Gold_Bar.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Gold_Ore\" title=\"Gold Ore\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f7/Gold_Ore.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Iridium_Bar\" title=\"Iridium Bars\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/c4/Iridium_Bar.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Iridium_Ore\" title=\"Iridium Ore\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/e9/Iridium_Ore.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Iron_Bar\" title=\"Iron Bars\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/6/6c/Iron_Bar.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Refined_Quartz\" title=\"Refined Quartz\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/9/98/Refined_Quartz.png\"/></a>, &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Tigerseye\" title=\"Tigerseye\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/6/6e/Tigerseye.png\"/></a>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Vegetables\" title=\"Vegetables\">Vegetables</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Hops\" title=\"Hops\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Hops.png\"/></a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Wheat\" title=\"Wheat\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/e2/Wheat.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -632,7 +636,7 @@ let villager_data = {
                 },
                 "hate": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Hates\" title=\"Friendship\">Universal Hates</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Joja Cola\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/d/d5/Joja_Cola.png\"/></div> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Seaweed\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/1/13/Seaweed.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Hates\" title=\"Friendship\">Universal Hates</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Joja_Cola\" title=\"Joja Cola\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/d/d5/Joja_Cola.png\"/></a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Seaweed\" title=\"Seaweed\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/1/13/Seaweed.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -697,6 +701,7 @@ let villager_data = {
         {
             "name": "Sebastian",
             "image": "https://stardewvalleywiki.com/mediawiki/images/a/a8/Sebastian.png",
+            "url": "https://stardewvalleywiki.com/Sebastian",
             "gifts": {
                 "love": {
                     "broad": [
@@ -732,7 +737,7 @@ let villager_data = {
                 },
                 "like": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <b><a href=\"https://stardewvalleywiki.com/Flowers\" title=\"Flowers\">Flowers</a></b>, <div class=\"gift-img fancy-tooltip\" title=\"Complete Breakfast\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/3/3d/Complete_Breakfast.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Farmer's Lunch\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/7/79/Farmer%27s_Lunch.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Omelet\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/1/12/Omelet.png\"/></div>, and <b><a href=\"https://stardewvalleywiki.com/Artisan_Goods\" title=\"Artisan Goods\">Artisan Goods</a></b> other than <div class=\"gift-img fancy-tooltip\" title=\"Coffee\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/e9/Coffee.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Mead\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/84/Mead.png\"/></div>, &amp; <div class=\"gift-img fancy-tooltip\" title=\"Oil\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/0/06/Oil.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <b><a href=\"https://stardewvalleywiki.com/Flowers\" title=\"Flowers\">Flowers</a></b>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Complete_Breakfast\" title=\"Complete Breakfast\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/3/3d/Complete_Breakfast.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Farmer%27s_Lunch\" title=\"Farmer's Lunch\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/7/79/Farmer%27s_Lunch.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Omelet\" title=\"Omelet\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/1/12/Omelet.png\"/></a>, and <b><a href=\"https://stardewvalleywiki.com/Artisan_Goods\" title=\"Artisan Goods\">Artisan Goods</a></b> other than <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Coffee\" title=\"Coffee\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/e9/Coffee.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Mead\" title=\"Mead\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/84/Mead.png\"/></a>, &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Oil\" title=\"Oil\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/0/06/Oil.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -745,16 +750,16 @@ let villager_data = {
                 "neutral": {
                     "broad": [
                         "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Neutrals\" title=\"Friendship\">Universal Neutrals</a></b>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></div>)</i>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fish#Fish_Types\" title=\"Fish\">Fish</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Carp\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a8/Carp.png\"/></div> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Snail\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/d/d2/Snail.png\"/></div>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Salmonberry\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></a>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fish#Fish_Types\" title=\"Fish\">Fish</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Carp\" title=\"Carp\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a8/Carp.png\"/></a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Snail\" title=\"Snail\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/d/d2/Snail.png\"/></a>)</i>",
                         "<b>All Milk</b>"
                     ],
                     "specific": []
                 },
                 "dislike": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Clay\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a2/Clay.png\"/></div>, <a href=\"https://stardewvalleywiki.com/Fish#Fish_Types\" title=\"Fish\">Fish</a>, <div class=\"gift-img fancy-tooltip\" title=\"Obsidian\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/2/23/Obsidian.png\"/></div>, &amp; <div class=\"gift-img fancy-tooltip\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></div>)</i>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Flowers\" title=\"Flowers\">Flowers</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Poppy\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/3/37/Poppy.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Clay\" title=\"Clay\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a2/Clay.png\"/></a>, <a href=\"https://stardewvalleywiki.com/Fish#Fish_Types\" title=\"Fish\">Fish</a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Obsidian\" title=\"Obsidian\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/2/23/Obsidian.png\"/></a>, &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Void_Egg\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></a>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Flowers\" title=\"Flowers\">Flowers</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Poppy\" title=\"Poppy\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/3/37/Poppy.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -827,8 +832,8 @@ let villager_data = {
                 "hate": {
                     "broad": [
                         "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Hates\" title=\"Friendship\">Universal Hates</a></b>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Artisan_Goods\" title=\"Artisan Goods\">Artisan Goods</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Coffee\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/e9/Coffee.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Mead\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/84/Mead.png\"/></div>, &amp; <div class=\"gift-img fancy-tooltip\" title=\"Oil\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/0/06/Oil.png\"/></div>)</i>",
-                        "<b>All Eggs</b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Artisan_Goods\" title=\"Artisan Goods\">Artisan Goods</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Coffee\" title=\"Coffee\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/e9/Coffee.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Mead\" title=\"Mead\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/84/Mead.png\"/></a>, &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Oil\" title=\"Oil\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/0/06/Oil.png\"/></a>)</i>",
+                        "<b>All Eggs</b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Void_Egg\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -858,6 +863,7 @@ let villager_data = {
         {
             "name": "Shane",
             "image": "https://stardewvalleywiki.com/mediawiki/images/8/8b/Shane.png",
+            "url": "https://stardewvalleywiki.com/Shane",
             "gifts": {
                 "love": {
                     "broad": [
@@ -889,8 +895,8 @@ let villager_data = {
                 "like": {
                     "broad": [
                         "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Jellies_and_Pickles\" title=\"Jellies and Pickles\">Pickles</a>)</i>",
-                        "<b>All Eggs</b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></div>)</i>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Hot Pepper\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f1/Hot_Pepper.png\"/></div>)</i>"
+                        "<b>All Eggs</b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Void_Egg\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></a>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Hot_Pepper\" title=\"Hot Pepper\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f1/Hot_Pepper.png\"/></a>)</i>"
                     ],
                     "specific": []
                 },
@@ -975,7 +981,7 @@ let villager_data = {
                 },
                 "hate": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Hates\" title=\"Friendship\">Universal Hates</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Seaweed\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/1/13/Seaweed.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Hates\" title=\"Friendship\">Universal Hates</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Seaweed\" title=\"Seaweed\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/1/13/Seaweed.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -995,6 +1001,7 @@ let villager_data = {
         {
             "name": "Abigail",
             "image": "https://stardewvalleywiki.com/mediawiki/images/8/88/Abigail.png",
+            "url": "https://stardewvalleywiki.com/Abigail",
             "gifts": {
                 "love": {
                     "broad": [
@@ -1105,10 +1112,10 @@ let villager_data = {
                 },
                 "dislike": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Clay\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a2/Clay.png\"/></div> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Pufferfish\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/b/ba/Pufferfish.png\"/></div>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Clay\" title=\"Clay\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a2/Clay.png\"/></a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Pufferfish\" title=\"Pufferfish\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/b/ba/Pufferfish.png\"/></a>)</i>",
                         "<b>All Eggs</b>",
                         "<b><a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">All Fruit</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a>)</i>",
-                        "<b><a href=\"https://stardewvalleywiki.com/Vegetables\" title=\"Vegetables\">All Vegetables</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Hops\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Hops.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Wheat\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/e2/Wheat.png\"/></div>, &amp; <div class=\"gift-img fancy-tooltip\" title=\"Pumpkin\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/6/64/Pumpkin.png\"/></div>)</i>"
+                        "<b><a href=\"https://stardewvalleywiki.com/Vegetables\" title=\"Vegetables\">All Vegetables</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Hops\" title=\"Hops\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Hops.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Wheat\" title=\"Wheat\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/e2/Wheat.png\"/></a>, &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Pumpkin\" title=\"Pumpkin\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/6/64/Pumpkin.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -1125,7 +1132,7 @@ let villager_data = {
                 },
                 "hate": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Hates\" title=\"Friendship\">Universal Hates</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Sugar\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a9/Sugar.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Hates\" title=\"Friendship\">Universal Hates</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Sugar\" title=\"Sugar\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a9/Sugar.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -1145,6 +1152,7 @@ let villager_data = {
         {
             "name": "Emily",
             "image": "https://stardewvalleywiki.com/mediawiki/images/2/28/Emily.png",
+            "url": "https://stardewvalleywiki.com/Emily",
             "gifts": {
                 "love": {
                     "broad": [
@@ -1200,7 +1208,7 @@ let villager_data = {
                 },
                 "like": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Fish Taco\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/d/d5/Fish_Taco.png\"/></div>,  <div class=\"gift-img fancy-tooltip\" title=\"Fried Eel\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/84/Fried_Eel.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Ice Cream\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/5d/Ice_Cream.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Maki Roll\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/b/b6/Maki_Roll.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Rice Pudding\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/ec/Rice_Pudding.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Salmon Dinner\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/8b/Salmon_Dinner.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Spicy Eel\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f2/Spicy_Eel.png\"/></div>, &amp; <div class=\"gift-img fancy-tooltip\" title=\"Sashimi\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/4/41/Sashimi.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Fish_Taco\" title=\"Fish Taco\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/d/d5/Fish_Taco.png\"/></a>,  <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Fried_Eel\" title=\"Fried Eel\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/84/Fried_Eel.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Ice_Cream\" title=\"Ice Cream\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/5d/Ice_Cream.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Maki_Roll\" title=\"Maki Roll\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/b/b6/Maki_Roll.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Rice_Pudding\" title=\"Rice Pudding\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/ec/Rice_Pudding.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Salmon_Dinner\" title=\"Salmon Dinner\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/8b/Salmon_Dinner.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Spicy_Eel\" title=\"Spicy Eel\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f2/Spicy_Eel.png\"/></a>, &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Sashimi\" title=\"Sashimi\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/4/41/Sashimi.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -1217,9 +1225,9 @@ let villager_data = {
                 },
                 "neutral": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Neutrals\" title=\"Friendship\">Universal Neutrals</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Wool\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/3/34/Wool.png\"/></div>)</i>",
-                        "<b>All Eggs</b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></div>)</i>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></div>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Neutrals\" title=\"Friendship\">Universal Neutrals</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Wool\" title=\"Wool\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/3/34/Wool.png\"/></a>)</i>",
+                        "<b>All Eggs</b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Void_Egg\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></a>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Salmonberry\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></a>)</i>",
                         "<b>All Milk</b>"
                     ],
                     "specific": [
@@ -1344,10 +1352,11 @@ let villager_data = {
         {
             "name": "Haley",
             "image": "https://stardewvalleywiki.com/mediawiki/images/1/1b/Haley.png",
+            "url": "https://stardewvalleywiki.com/Haley",
             "gifts": {
                 "love": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Loves\" title=\"Friendship\">Universal Loves</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Prismatic Shard\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Loves\" title=\"Friendship\">Universal Loves</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Prismatic_Shard\" title=\"Prismatic Shard\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -1392,11 +1401,11 @@ let villager_data = {
                 },
                 "dislike": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Clay\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a2/Clay.png\"/></div>  &amp; <a href=\"https://stardewvalleywiki.com/Fish#Fish_Types\" title=\"Fish\">Fish</a>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Clay\" title=\"Clay\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a2/Clay.png\"/></a>  &amp; <a href=\"https://stardewvalleywiki.com/Fish#Fish_Types\" title=\"Fish\">Fish</a>)</i>",
                         "<b>All Eggs</b>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Coconut\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/2/2f/Coconut.png\"/></div>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Coconut\" title=\"Coconut\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/2/2f/Coconut.png\"/></a>)</i>",
                         "<b>All Milk</b>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Vegetables\" title=\"Vegetables\">Vegetables</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Hops\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Hops.png\"/></div> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Wheat\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/e2/Wheat.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Vegetables\" title=\"Vegetables\">Vegetables</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Hops\" title=\"Hops\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Hops.png\"/></a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Wheat\" title=\"Wheat\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/e2/Wheat.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -1484,6 +1493,7 @@ let villager_data = {
         {
             "name": "Leah",
             "image": "https://stardewvalleywiki.com/mediawiki/images/e/e6/Leah.png",
+            "url": "https://stardewvalleywiki.com/Leah",
             "gifts": {
                 "love": {
                     "broad": [
@@ -1529,8 +1539,8 @@ let villager_data = {
                 },
                 "like": {
                     "broad": [
-                        "<strong>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></strong> <em>(except:<ul><li><strong><a href=\"https://stardewvalleywiki.com/Minerals#Foraged_Minerals\" title=\"Minerals\">Foraged Minerals</a></strong> other than <div class=\"gift-img fancy-tooltip\" title=\"Earth Crystal\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/7/74/Earth_Crystal.png\"/></div></li><li><strong><a href=\"https://stardewvalleywiki.com/Minerals#Gems\" title=\"Minerals\">Gems</a></strong> other than <div class=\"gift-img fancy-tooltip\" title=\"Diamond\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/ea/Diamond.png\"/></div> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Prismatic Shard\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png\"/></div></li><li><div class=\"gift-img fancy-tooltip\" title=\"Carp Surprise\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/cc/Carp_Surprise.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Cookie\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/7/70/Cookie.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Hashbrowns\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/8f/Hashbrowns.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Ice Cream\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/5d/Ice_Cream.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Pancakes\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/6/6b/Pancakes.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Pink Cake\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/3/32/Pink_Cake.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Pizza\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f4/Pizza.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Rice Pudding\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/ec/Rice_Pudding.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Survival Burger\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/87/Survival_Burger.png\"/></div>, &amp; <div class=\"gift-img fancy-tooltip\" title=\"Tortilla\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/d/d7/Tortilla.png\"/></div>)</li></ul></em>",
-                        "<strong>All Eggs</strong> <em>(except <div class=\"gift-img fancy-tooltip\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></div>)</em>",
+                        "<strong>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></strong> <em>(except:<ul><li><strong><a href=\"https://stardewvalleywiki.com/Minerals#Foraged_Minerals\" title=\"Minerals\">Foraged Minerals</a></strong> other than <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Earth_Crystal\" title=\"Earth Crystal\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/7/74/Earth_Crystal.png\"/></a></li><li><strong><a href=\"https://stardewvalleywiki.com/Minerals#Gems\" title=\"Minerals\">Gems</a></strong> other than <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Diamond\" title=\"Diamond\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/ea/Diamond.png\"/></a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Prismatic_Shard\" title=\"Prismatic Shard\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png\"/></a></li><li><a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Carp_Surprise\" title=\"Carp Surprise\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/cc/Carp_Surprise.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Cookie\" title=\"Cookie\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/7/70/Cookie.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Hashbrowns\" title=\"Hashbrowns\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/8f/Hashbrowns.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Ice_Cream\" title=\"Ice Cream\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/5d/Ice_Cream.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Pancakes\" title=\"Pancakes\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/6/6b/Pancakes.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Pink_Cake\" title=\"Pink Cake\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/3/32/Pink_Cake.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Pizza\" title=\"Pizza\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f4/Pizza.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Rice_Pudding\" title=\"Rice Pudding\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/ec/Rice_Pudding.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Survival_Burger\" title=\"Survival Burger\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/87/Survival_Burger.png\"/></a>, &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Tortilla\" title=\"Tortilla\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/d/d7/Tortilla.png\"/></a>)</li></ul></em>",
+                        "<strong>All Eggs</strong> <em>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Void_Egg\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></a>)</em>",
                         "<strong>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></strong>",
                         "<strong>All Milk</strong>"
                     ],
@@ -1609,15 +1619,15 @@ let villager_data = {
                 },
                 "neutral": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Neutrals\" title=\"Friendship\">Universal Neutrals</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Bread\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/e1/Bread.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Fried Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/1/18/Fried_Egg.png\"/></div>, and <div class=\"gift-img fancy-tooltip\" title=\"Truffle\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f2/Truffle.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Neutrals\" title=\"Friendship\">Universal Neutrals</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Bread\" title=\"Bread\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/e1/Bread.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Fried_Egg\" title=\"Fried Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/1/18/Fried_Egg.png\"/></a>, and <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Truffle\" title=\"Truffle\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f2/Truffle.png\"/></a>)</i>"
                     ],
                     "specific": []
                 },
                 "dislike": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Driftwood\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/6/63/Driftwood.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Spring Onion\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/0/0c/Spring_Onion.png\"/></div>, and <div class=\"gift-img fancy-tooltip\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></div>)</i>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Minerals#Foraged_Minerals\" title=\"Minerals\">Foraged Minerals</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Earth Crystal\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/7/74/Earth_Crystal.png\"/></div>)</i>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Minerals#Gems\" title=\"Minerals\">Gems</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Diamond\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/ea/Diamond.png\"/></div> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Prismatic Shard\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Driftwood\" title=\"Driftwood\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/6/63/Driftwood.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Spring_Onion\" title=\"Spring Onion\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/0/0c/Spring_Onion.png\"/></a>, and <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Void_Egg\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></a>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Minerals#Foraged_Minerals\" title=\"Minerals\">Foraged Minerals</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Earth_Crystal\" title=\"Earth Crystal\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/7/74/Earth_Crystal.png\"/></a>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Minerals#Gems\" title=\"Minerals\">Gems</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Diamond\" title=\"Diamond\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/ea/Diamond.png\"/></a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Prismatic_Shard\" title=\"Prismatic Shard\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -1669,7 +1679,7 @@ let villager_data = {
                 },
                 "hate": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Hates\" title=\"Friendship\">Universal Hates</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Seaweed\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/1/13/Seaweed.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Hates\" title=\"Friendship\">Universal Hates</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Seaweed\" title=\"Seaweed\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/1/13/Seaweed.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -1704,6 +1714,7 @@ let villager_data = {
         {
             "name": "Maru",
             "image": "https://stardewvalleywiki.com/mediawiki/images/f/f8/Maru.png",
+            "url": "https://stardewvalleywiki.com/Maru",
             "gifts": {
                 "love": {
                     "broad": [
@@ -1764,7 +1775,7 @@ let villager_data = {
                 },
                 "like": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Honey\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/c6/Honey.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Maple Syrup\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/6/6a/Maple_Syrup.png\"/></div>, &amp; <a href=\"https://stardewvalleywiki.com/Jellies_and_Pickles\" title=\"Jellies and Pickles\">Pickles</a>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Honey\" title=\"Honey\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/c6/Honey.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Maple_Syrup\" title=\"Maple Syrup\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/6/6a/Maple_Syrup.png\"/></a>, &amp; <a href=\"https://stardewvalleywiki.com/Jellies_and_Pickles\" title=\"Jellies and Pickles\">Pickles</a>)</i>"
                     ],
                     "specific": [
                         {
@@ -1796,9 +1807,9 @@ let villager_data = {
                 },
                 "neutral": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Neutrals\" title=\"Friendship\">Universal Neutrals</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Truffle\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f2/Truffle.png\"/></div>)</i>",
-                        "<b>All Eggs</b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></div>)</i>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Blackberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/2/25/Blackberry.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Crystal Fruit\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/1/16/Crystal_Fruit.png\"/></div>, <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a>, <div class=\"gift-img fancy-tooltip\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></div>, &amp; <div class=\"gift-img fancy-tooltip\" title=\"Strawberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/6/6d/Strawberry.png\"/></div>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Neutrals\" title=\"Friendship\">Universal Neutrals</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Truffle\" title=\"Truffle\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f2/Truffle.png\"/></a>)</i>",
+                        "<b>All Eggs</b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Void_Egg\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></a>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Blackberry\" title=\"Blackberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/2/25/Blackberry.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Crystal_Fruit\" title=\"Crystal Fruit\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/1/16/Crystal_Fruit.png\"/></a>, <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Salmonberry\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></a>, &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Strawberry\" title=\"Strawberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/6/6d/Strawberry.png\"/></a>)</i>",
                         "<b>All Milk</b>"
                     ],
                     "specific": [
@@ -1851,7 +1862,7 @@ let villager_data = {
                 },
                 "dislike": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Battery Pack\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/2/25/Battery_Pack.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Copper Bar\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f1/Copper_Bar.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Gold Bar\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/4/4e/Gold_Bar.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Iridium Bar\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/c4/Iridium_Bar.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Iron Bar\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/6/6c/Iron_Bar.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Oak Resin\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/4/40/Oak_Resin.png\"/></div>, &amp; <div class=\"gift-img fancy-tooltip\" title=\"Pine Tar\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/ce/Pine_Tar.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Battery_Pack\" title=\"Battery Pack\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/2/25/Battery_Pack.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Copper_Bar\" title=\"Copper Bar\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f1/Copper_Bar.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Gold_Bar\" title=\"Gold Bar\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/4/4e/Gold_Bar.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Iridium_Bar\" title=\"Iridium Bar\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/c4/Iridium_Bar.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Iron_Bar\" title=\"Iron Bar\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/6/6c/Iron_Bar.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Oak_Resin\" title=\"Oak Resin\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/4/40/Oak_Resin.png\"/></a>, &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Pine_Tar\" title=\"Pine Tar\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/ce/Pine_Tar.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -1918,10 +1929,11 @@ let villager_data = {
         {
             "name": "Penny",
             "image": "https://stardewvalleywiki.com/mediawiki/images/a/ab/Penny.png",
+            "url": "https://stardewvalleywiki.com/Penny",
             "gifts": {
                 "love": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Loves\" title=\"Friendship\">Universal Loves</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Rabbit's Foot\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Loves\" title=\"Friendship\">Universal Loves</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Rabbit%27s_Foot\" title=\"Rabbit's Foot\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -1973,7 +1985,7 @@ let villager_data = {
                 },
                 "like": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Algae Soup\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/53/Algae_Soup.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Beer\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/b/b3/Beer.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Mead\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/84/Mead.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Pale Ale\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/7/78/Pale_Ale.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Pale Broth\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/7/7e/Pale_Broth.png\"/></div>, &amp; <div class=\"gift-img fancy-tooltip\" title=\"Wine\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/6/69/Wine.png\"/></div>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Algae_Soup\" title=\"Algae Soup\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/53/Algae_Soup.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Beer\" title=\"Beer\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/b/b3/Beer.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Mead\" title=\"Mead\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/84/Mead.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Pale_Ale\" title=\"Pale Ale\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/7/78/Pale_Ale.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Pale_Broth\" title=\"Pale Broth\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/7/7e/Pale_Broth.png\"/></a>, &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Wine\" title=\"Wine\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/6/69/Wine.png\"/></a>)</i>",
                         "<b>All Milk</b>"
                     ],
                     "specific": [
@@ -1991,9 +2003,9 @@ let villager_data = {
                 },
                 "neutral": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Neutrals\" title=\"Friendship\">Universal Neutrals</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Duck Feather\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f9/Duck_Feather.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Hops\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Hops.png\"/></div>, &amp; <div class=\"gift-img fancy-tooltip\" title=\"Wool\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/3/34/Wool.png\"/></div>)</i>",
-                        "<b>All Eggs</b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></div>)</i>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a>, <div class=\"gift-img fancy-tooltip\" title=\"Grape\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/c2/Grape.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Melon\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/1/19/Melon.png\"/></div>, &amp; <div class=\"gift-img fancy-tooltip\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Neutrals\" title=\"Friendship\">Universal Neutrals</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Duck_Feather\" title=\"Duck Feather\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f9/Duck_Feather.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Hops\" title=\"Hops\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Hops.png\"/></a>, &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Wool\" title=\"Wool\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/3/34/Wool.png\"/></a>)</i>",
+                        "<b>All Eggs</b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Void_Egg\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></a>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Grape\" title=\"Grape\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/c2/Grape.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Melon\" title=\"Melon\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/1/19/Melon.png\"/></a>, &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Salmonberry\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -2040,7 +2052,7 @@ let villager_data = {
                 },
                 "dislike": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Sandfish\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/b/bb/Sandfish.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Sandfish\" title=\"Sandfish\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/b/bb/Sandfish.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -2087,7 +2099,7 @@ let villager_data = {
                 },
                 "hate": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Hates\" title=\"Friendship\">Universal Hates</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Poppy\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/3/37/Poppy.png\"/></div> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Red Mushroom\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/e1/Red_Mushroom.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Hates\" title=\"Friendship\">Universal Hates</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Poppy\" title=\"Poppy\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/3/37/Poppy.png\"/></a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Red_Mushroom\" title=\"Red Mushroom\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/e1/Red_Mushroom.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -2137,6 +2149,7 @@ let villager_data = {
         {
             "name": "Caroline",
             "image": "https://stardewvalleywiki.com/mediawiki/images/8/87/Caroline.png",
+            "url": "https://stardewvalleywiki.com/Caroline",
             "gifts": {
                 "love": {
                     "broad": [
@@ -2157,7 +2170,7 @@ let villager_data = {
                 },
                 "like": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Amaranth\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f6/Amaranth.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Duck Mayonnaise\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/2/23/Duck_Mayonnaise.png\"/></div>, &amp; <div class=\"gift-img fancy-tooltip\" title=\"Mayonnaise\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/4/4e/Mayonnaise.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Amaranth\" title=\"Amaranth\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f6/Amaranth.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Duck_Mayonnaise\" title=\"Duck Mayonnaise\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/2/23/Duck_Mayonnaise.png\"/></a>, &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Mayonnaise\" title=\"Mayonnaise\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/4/4e/Mayonnaise.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -2170,8 +2183,8 @@ let villager_data = {
                 "neutral": {
                     "broad": [
                         "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Neutrals\" title=\"Friendship\">Universal Neutrals</a></b>",
-                        "<b>All Eggs</b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></div>)</i>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></div>)</i>",
+                        "<b>All Eggs</b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Void_Egg\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></a>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Salmonberry\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></a>)</i>",
                         "<b>All Milk</b>"
                     ],
                     "specific": []
@@ -2275,6 +2288,7 @@ let villager_data = {
         {
             "name": "Clint",
             "image": "https://stardewvalleywiki.com/mediawiki/images/3/31/Clint.png",
+            "url": "https://stardewvalleywiki.com/Clint",
             "gifts": {
                 "love": {
                     "broad": [
@@ -2358,8 +2372,8 @@ let villager_data = {
                 "neutral": {
                     "broad": [
                         "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Neutrals\" title=\"Friendship\">Universal Neutrals</a></b>",
-                        "<b>All Eggs</b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></div>)</i>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></div>)</i>",
+                        "<b>All Eggs</b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Void_Egg\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></a>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Salmonberry\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></a>)</i>",
                         "<b>All Milk</b>"
                     ],
                     "specific": [
@@ -2437,8 +2451,8 @@ let villager_data = {
                 },
                 "dislike": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Coal\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a7/Coal.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Copper Bar\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f1/Copper_Bar.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Gold Bar\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/4/4e/Gold_Bar.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Gold Ore\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f7/Gold_Ore.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Iridium Bar\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/c4/Iridium_Bar.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Iridium Ore\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/e9/Iridium_Ore.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Iron Bar\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/6/6c/Iron_Bar.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Omni Geode\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/0/09/Omni_Geode.png\"/></div>, &amp; <div class=\"gift-img fancy-tooltip\" title=\"Refined Quartz\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/9/98/Refined_Quartz.png\"/></div>)</i>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Flowers\" title=\"Flowers\">Flowers</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Poppy\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/3/37/Poppy.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Coal\" title=\"Coal\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a7/Coal.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Copper_Bar\" title=\"Copper Bar\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f1/Copper_Bar.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Gold_Bar\" title=\"Gold Bar\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/4/4e/Gold_Bar.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Gold_Ore\" title=\"Gold Ore\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f7/Gold_Ore.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Iridium_Bar\" title=\"Iridium Bar\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/c4/Iridium_Bar.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Iridium_Ore\" title=\"Iridium Ore\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/e9/Iridium_Ore.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Iron_Bar\" title=\"Iron Bar\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/6/6c/Iron_Bar.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Omni_Geode\" title=\"Omni Geode\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/0/09/Omni_Geode.png\"/></a>, &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Refined_Quartz\" title=\"Refined Quartz\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/9/98/Refined_Quartz.png\"/></a>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Flowers\" title=\"Flowers\">Flowers</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Poppy\" title=\"Poppy\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/3/37/Poppy.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -2475,6 +2489,7 @@ let villager_data = {
         {
             "name": "Demetrius",
             "image": "https://stardewvalleywiki.com/mediawiki/images/f/f9/Demetrius.png",
+            "url": "https://stardewvalleywiki.com/Demetrius",
             "gifts": {
                 "love": {
                     "broad": [
@@ -2506,8 +2521,8 @@ let villager_data = {
                 "like": {
                     "broad": [
                         "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b>",
-                        "<b>All Eggs</b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></div>)</i>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Strawberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/6/6d/Strawberry.png\"/></div>)</i>"
+                        "<b>All Eggs</b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Void_Egg\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></a>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Strawberry\" title=\"Strawberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/6/6d/Strawberry.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -2520,7 +2535,7 @@ let villager_data = {
                 "neutral": {
                     "broad": [
                         "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Neutrals\" title=\"Friendship\">Universal Neutrals</a></b>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fish#Fish_Types\" title=\"Fish\">Fish</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Carp\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a8/Carp.png\"/></div> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Snail\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/d/d2/Snail.png\"/></div>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fish#Fish_Types\" title=\"Fish\">Fish</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Carp\" title=\"Carp\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a8/Carp.png\"/></a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Snail\" title=\"Snail\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/d/d2/Snail.png\"/></a>)</i>",
                         "<b>All Milk</b>"
                     ],
                     "specific": [
@@ -2605,6 +2620,7 @@ let villager_data = {
         {
             "name": "Dwarf",
             "image": "https://stardewvalleywiki.com/mediawiki/images/e/ed/Dwarf.png",
+            "url": "https://stardewvalleywiki.com/Dwarf",
             "gifts": {
                 "love": {
                     "broad": [
@@ -2693,7 +2709,7 @@ let villager_data = {
                 "neutral": {
                     "broad": [
                         "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Neutrals\" title=\"Friendship\">Universal Neutrals</a></b>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree fruit</a> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree fruit</a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Salmonberry\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -2710,7 +2726,7 @@ let villager_data = {
                 },
                 "dislike": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Omni Geode\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/0/09/Omni_Geode.png\"/></div>,  <div class=\"gift-img fancy-tooltip\" title=\"Solar Essence\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f4/Solar_Essence.png\"/></div>, &amp; <div class=\"gift-img fancy-tooltip\" title=\"Void Essence\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/1/1f/Void_Essence.png\"/></div>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Omni_Geode\" title=\"Omni Geode\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/0/09/Omni_Geode.png\"/></a>,  <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Solar_Essence\" title=\"Solar Essence\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f4/Solar_Essence.png\"/></a>, &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Void_Essence\" title=\"Void Essence\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/1/1f/Void_Essence.png\"/></a>)</i>",
                         "<b>All Eggs</b>",
                         "<b>All Milk</b>"
                     ],
@@ -2784,7 +2800,7 @@ let villager_data = {
                 },
                 "hate": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Hates\" title=\"Friendship\">Universal Hates</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Dwarf Scroll I\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/b/b9/Dwarf_Scroll_I.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Dwarf Scroll II\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/ca/Dwarf_Scroll_II.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Dwarf Scroll III\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/ec/Dwarf_Scroll_III.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Dwarf Scroll IV\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/85/Dwarf_Scroll_IV.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Dwarvish Helm\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/8b/Dwarvish_Helm.png\"/></div>, &amp; <div class=\"gift-img fancy-tooltip\" title=\"Dwarf Gadget\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Dwarf_Gadget.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Hates\" title=\"Friendship\">Universal Hates</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Dwarf_Scroll_I\" title=\"Dwarf Scroll I\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/b/b9/Dwarf_Scroll_I.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Dwarf_Scroll_II\" title=\"Dwarf Scroll II\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/ca/Dwarf_Scroll_II.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Dwarf_Scroll_III\" title=\"Dwarf Scroll III\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/ec/Dwarf_Scroll_III.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Dwarf_Scroll_IV\" title=\"Dwarf Scroll IV\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/85/Dwarf_Scroll_IV.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Dwarvish_Helm\" title=\"Dwarvish Helm\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/8b/Dwarvish_Helm.png\"/></a>, &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Dwarf_Gadget\" title=\"Dwarf Gadget\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Dwarf_Gadget.png\"/></a>)</i>"
                     ],
                     "specific": []
                 }
@@ -2793,6 +2809,7 @@ let villager_data = {
         {
             "name": "Evelyn",
             "image": "https://stardewvalleywiki.com/mediawiki/images/8/8e/Evelyn.png",
+            "url": "https://stardewvalleywiki.com/Evelyn",
             "gifts": {
                 "love": {
                     "broad": [
@@ -2833,7 +2850,7 @@ let villager_data = {
                 },
                 "like": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Fried Eel\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/84/Fried_Eel.png\"/></div>,  <div class=\"gift-img fancy-tooltip\" title=\"Garlic\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/cc/Garlic.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Maki Roll\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/b/b6/Maki_Roll.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Sashimi\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/4/41/Sashimi.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Spicy Eel\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f2/Spicy_Eel.png\"/></div>, &amp; <div class=\"gift-img fancy-tooltip\" title=\"Trout Soup\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/4/48/Trout_Soup.png\"/></div>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Fried_Eel\" title=\"Fried Eel\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/84/Fried_Eel.png\"/></a>,  <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Garlic\" title=\"Garlic\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/cc/Garlic.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Maki_Roll\" title=\"Maki Roll\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/b/b6/Maki_Roll.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Sashimi\" title=\"Sashimi\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/4/41/Sashimi.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Spicy_Eel\" title=\"Spicy Eel\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f2/Spicy_Eel.png\"/></a>, &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Trout_Soup\" title=\"Trout Soup\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/4/48/Trout_Soup.png\"/></a>)</i>",
                         "<b>All Milk</b>"
                     ],
                     "specific": [
@@ -2846,9 +2863,9 @@ let villager_data = {
                 },
                 "neutral": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Neutrals\" title=\"Friendship\">Universal Neutrals</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Clam\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/ed/Clam.png\"/></div> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Coral\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/b/b1/Coral.png\"/></div>)</i>",
-                        "<b>All Eggs</b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></div>)</i>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a>, <div class=\"gift-img fancy-tooltip\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></div>, &amp; <div class=\"gift-img fancy-tooltip\" title=\"Spice Berry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/c6/Spice_Berry.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Neutrals\" title=\"Friendship\">Universal Neutrals</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Clam\" title=\"Clam\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/ed/Clam.png\"/></a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Coral\" title=\"Coral\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/b/b1/Coral.png\"/></a>)</i>",
+                        "<b>All Eggs</b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Void_Egg\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></a>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Salmonberry\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></a>, &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Spice_Berry\" title=\"Spice Berry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/c6/Spice_Berry.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -2900,7 +2917,7 @@ let villager_data = {
                 },
                 "dislike": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Clay\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a2/Clay.png\"/></div> &amp; <a href=\"https://stardewvalleywiki.com/Fish#Fish_Types\" title=\"Fish\">Fish</a>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Clay\" title=\"Clay\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a2/Clay.png\"/></a> &amp; <a href=\"https://stardewvalleywiki.com/Fish#Fish_Types\" title=\"Fish\">Fish</a>)</i>"
                     ],
                     "specific": [
                         {
@@ -2988,6 +3005,7 @@ let villager_data = {
         {
             "name": "George",
             "image": "https://stardewvalleywiki.com/mediawiki/images/7/78/George.png",
+            "url": "https://stardewvalleywiki.com/George",
             "gifts": {
                 "love": {
                     "broad": [
@@ -3021,8 +3039,8 @@ let villager_data = {
                 "neutral": {
                     "broad": [
                         "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Neutrals\" title=\"Friendship\">Universal Neutrals</a></b>",
-                        "<b>All Eggs</b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></div>)</i>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></div>)</i>",
+                        "<b>All Eggs</b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Void_Egg\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></a>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Salmonberry\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></a>)</i>",
                         "<b>All Milk</b>"
                     ],
                     "specific": [
@@ -3065,8 +3083,8 @@ let villager_data = {
                 },
                 "dislike": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Clay\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a2/Clay.png\"/></div>)</i>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Flowers\" title=\"Flowers\">Flowers</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Poppy\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/3/37/Poppy.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Clay\" title=\"Clay\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a2/Clay.png\"/></a>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Flowers\" title=\"Flowers\">Flowers</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Poppy\" title=\"Poppy\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/3/37/Poppy.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -3113,6 +3131,7 @@ let villager_data = {
         {
             "name": "Gus",
             "image": "https://stardewvalleywiki.com/mediawiki/images/5/52/Gus.png",
+            "url": "https://stardewvalleywiki.com/Gus",
             "gifts": {
                 "love": {
                     "broad": [
@@ -3143,7 +3162,7 @@ let villager_data = {
                 },
                 "like": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Coleslaw\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/e1/Coleslaw.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Coleslaw\" title=\"Coleslaw\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/e1/Coleslaw.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -3156,8 +3175,8 @@ let villager_data = {
                 "neutral": {
                     "broad": [
                         "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Neutrals\" title=\"Friendship\">Universal Neutrals</a></b>",
-                        "<b>All Eggs</b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></div>)</i>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></div>)</i>",
+                        "<b>All Eggs</b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Void_Egg\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></a>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Salmonberry\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></a>)</i>",
                         "<b>All Milk</b>"
                     ],
                     "specific": [
@@ -3252,6 +3271,7 @@ let villager_data = {
         {
             "name": "Jas",
             "image": "https://stardewvalleywiki.com/mediawiki/images/5/55/Jas.png",
+            "url": "https://stardewvalleywiki.com/Jas",
             "gifts": {
                 "love": {
                     "broad": [
@@ -3301,10 +3321,10 @@ let villager_data = {
                 },
                 "dislike": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Clay\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a2/Clay.png\"/></div>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Clay\" title=\"Clay\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a2/Clay.png\"/></a>)</i>",
                         "<b>All Eggs</b>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Coconut\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/2/2f/Coconut.png\"/></div> &amp; <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a>)</i>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Vegetables\" title=\"Vegetables\">Vegetables</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Hops\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Hops.png\"/></div> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Wheat\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/e2/Wheat.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Coconut\" title=\"Coconut\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/2/2f/Coconut.png\"/></a> &amp; <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Vegetables\" title=\"Vegetables\">Vegetables</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Hops\" title=\"Hops\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Hops.png\"/></a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Wheat\" title=\"Wheat\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/e2/Wheat.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -3367,7 +3387,7 @@ let villager_data = {
                 "hate": {
                     "broad": [
                         "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Hates\" title=\"Friendship\">Universal Hates</a></b>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Artisan_Goods\" title=\"Artisan Goods\">Artisan Goods</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Mead\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/84/Mead.png\"/></div> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Oil\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/0/06/Oil.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Artisan_Goods\" title=\"Artisan Goods\">Artisan Goods</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Mead\" title=\"Mead\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/84/Mead.png\"/></a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Oil\" title=\"Oil\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/0/06/Oil.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -3387,6 +3407,7 @@ let villager_data = {
         {
             "name": "Jodi",
             "image": "https://stardewvalleywiki.com/mediawiki/images/4/41/Jodi.png",
+            "url": "https://stardewvalleywiki.com/Jodi",
             "gifts": {
                 "love": {
                     "broad": [
@@ -3437,9 +3458,9 @@ let villager_data = {
                 },
                 "like": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Garlic\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/cc/Garlic.png\"/></div>)</i>",
-                        "<b>All Eggs</b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></div>)</i>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Spice Berry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/c6/Spice_Berry.png\"/></div>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Garlic\" title=\"Garlic\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/cc/Garlic.png\"/></a>)</i>",
+                        "<b>All Eggs</b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Void_Egg\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></a>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Spice_Berry\" title=\"Spice Berry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/c6/Spice_Berry.png\"/></a>)</i>",
                         "<b>All Milk</b>"
                     ],
                     "specific": []
@@ -3544,6 +3565,7 @@ let villager_data = {
         {
             "name": "Kent",
             "image": "https://stardewvalleywiki.com/mediawiki/images/9/99/Kent.png",
+            "url": "https://stardewvalleywiki.com/Kent",
             "gifts": {
                 "love": {
                     "broad": [
@@ -3564,8 +3586,8 @@ let villager_data = {
                 },
                 "like": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Algae Soup\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/53/Algae_Soup.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Sashimi\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/4/41/Sashimi.png\"/></div>, &amp; <div class=\"gift-img fancy-tooltip\" title=\"Tortilla\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/d/d7/Tortilla.png\"/></div>)</i>",
-                        "<b>All Eggs</b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></div>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Algae_Soup\" title=\"Algae Soup\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/53/Algae_Soup.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Sashimi\" title=\"Sashimi\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/4/41/Sashimi.png\"/></a>, &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Tortilla\" title=\"Tortilla\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/d/d7/Tortilla.png\"/></a>)</i>",
+                        "<b>All Eggs</b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Void_Egg\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></a>)</i>",
                         "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b>"
                     ],
                     "specific": [
@@ -3678,6 +3700,7 @@ let villager_data = {
         {
             "name": "Krobus",
             "image": "https://stardewvalleywiki.com/mediawiki/images/7/71/Krobus.png",
+            "url": "https://stardewvalleywiki.com/Krobus",
             "gifts": {
                 "love": {
                     "broad": [
@@ -3718,7 +3741,7 @@ let villager_data = {
                 },
                 "like": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <b><a href=\"https://stardewvalleywiki.com/Cooking\" title=\"Cooking\">Cooking</a></b> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Life Elixir\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/6/6e/Life_Elixir.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <b><a href=\"https://stardewvalleywiki.com/Cooking\" title=\"Cooking\">Cooking</a></b> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Life_Elixir\" title=\"Life Elixir\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/6/6e/Life_Elixir.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -3736,16 +3759,16 @@ let villager_data = {
                 "neutral": {
                     "broad": [
                         "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Neutrals\" title=\"Friendship\">Universal Neutrals</a></b>",
-                        "<b>All Eggs</b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></div>)</i>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></div>)</i>",
+                        "<b>All Eggs</b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Void_Egg\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></a>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Salmonberry\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></a>)</i>",
                         "<b>All Milk</b>"
                     ],
                     "specific": []
                 },
                 "dislike": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Gold Bar\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/4/4e/Gold_Bar.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Iridium Bar\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/c4/Iridium_Bar.png\"/></div>, &amp; <div class=\"gift-img fancy-tooltip\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></div>)</i>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Cooking\" title=\"Cooking\">Cooking</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Bread\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/e1/Bread.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Fried Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/1/18/Fried_Egg.png\"/></div>, &amp; <div class=\"gift-img fancy-tooltip\" title=\"Strange Bun\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/5e/Strange_Bun.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Gold_Bar\" title=\"Gold Bar\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/4/4e/Gold_Bar.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Iridium_Bar\" title=\"Iridium Bar\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/c4/Iridium_Bar.png\"/></a>, &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Void_Egg\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></a>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Cooking\" title=\"Cooking\">Cooking</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Bread\" title=\"Bread\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/e1/Bread.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Fried_Egg\" title=\"Fried Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/1/18/Fried_Egg.png\"/></a>, &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Strange_Bun\" title=\"Strange Bun\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/5e/Strange_Bun.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -3817,7 +3840,7 @@ let villager_data = {
                 },
                 "hate": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Hates\" title=\"Friendship\">Universal Hates</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Void Mayonnaise\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f3/Void_Mayonnaise.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Hates\" title=\"Friendship\">Universal Hates</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Void_Mayonnaise\" title=\"Void Mayonnaise\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f3/Void_Mayonnaise.png\"/></a>)</i>"
                     ],
                     "specific": []
                 }
@@ -3826,6 +3849,7 @@ let villager_data = {
         {
             "name": "Lewis",
             "image": "https://stardewvalleywiki.com/mediawiki/images/2/2b/Lewis.png",
+            "url": "https://stardewvalleywiki.com/Lewis",
             "gifts": {
                 "love": {
                     "broad": [
@@ -3879,8 +3903,8 @@ let villager_data = {
                 "neutral": {
                     "broad": [
                         "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Neutrals\" title=\"Friendship\">Universal Neutrals</a></b>",
-                        "<b>All Eggs</b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></div>)</i>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Blueberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/9/9e/Blueberry.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Cactus Fruit\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/3/32/Cactus_Fruit.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Coconut\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/2/2f/Coconut.png\"/></div>, <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a>, <div class=\"gift-img fancy-tooltip\" title=\"Hot Pepper\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f1/Hot_Pepper.png\"/></div>, &amp; <div class=\"gift-img fancy-tooltip\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></div>)</i>"
+                        "<b>All Eggs</b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Void_Egg\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></a>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Blueberry\" title=\"Blueberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/9/9e/Blueberry.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Cactus_Fruit\" title=\"Cactus Fruit\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/3/32/Cactus_Fruit.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Coconut\" title=\"Coconut\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/2/2f/Coconut.png\"/></a>, <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Hot_Pepper\" title=\"Hot Pepper\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f1/Hot_Pepper.png\"/></a>, &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Salmonberry\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -3975,6 +3999,7 @@ let villager_data = {
         {
             "name": "Linus",
             "image": "https://stardewvalleywiki.com/mediawiki/images/3/31/Linus.png",
+            "url": "https://stardewvalleywiki.com/Linus",
             "gifts": {
                 "love": {
                     "broad": [
@@ -4010,10 +4035,10 @@ let villager_data = {
                 },
                 "like": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <b><a href=\"https://stardewvalleywiki.com/Minerals#Foraged_Minerals\" title=\"Minerals\">Foraged Minerals</a></b> &amp; <b><a href=\"https://stardewvalleywiki.com/Minerals#Gems\" title=\"Minerals\">Gems</a></b> other than <div class=\"gift-img fancy-tooltip\" title=\"Diamond\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/ea/Diamond.png\"/></div> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Prismatic Shard\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png\"/></div>)</i>",
-                        "<b>All Eggs</b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></div>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <b><a href=\"https://stardewvalleywiki.com/Minerals#Foraged_Minerals\" title=\"Minerals\">Foraged Minerals</a></b> &amp; <b><a href=\"https://stardewvalleywiki.com/Minerals#Gems\" title=\"Minerals\">Gems</a></b> other than <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Diamond\" title=\"Diamond\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/ea/Diamond.png\"/></a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Prismatic_Shard\" title=\"Prismatic Shard\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png\"/></a>)</i>",
+                        "<b>All Eggs</b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Void_Egg\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></a>)</i>",
                         "<b>All Milk</b>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Cactus Fruit\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/3/32/Cactus_Fruit.png\"/></div> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Coconut\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/2/2f/Coconut.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Cactus_Fruit\" title=\"Cactus Fruit\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/3/32/Cactus_Fruit.png\"/></a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Coconut\" title=\"Coconut\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/2/2f/Coconut.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -4086,15 +4111,15 @@ let villager_data = {
                 "neutral": {
                     "broad": [
                         "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Neutrals\" title=\"Friendship\">Universal Neutrals</a></b>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fish#Fish_types\" title=\"Fish\">Fish</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Carp\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a8/Carp.png\"/></div> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Snail\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/d/d2/Snail.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fish#Fish_types\" title=\"Fish\">Fish</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Carp\" title=\"Carp\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a8/Carp.png\"/></a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Snail\" title=\"Snail\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/d/d2/Snail.png\"/></a>)</i>"
                     ],
                     "specific": []
                 },
                 "dislike": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fish#Fish_types\" title=\"Fish\">Fish</a> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Spring Onion\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/0/0c/Spring_Onion.png\"/></div>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fish#Fish_types\" title=\"Fish\">Fish</a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Spring_Onion\" title=\"Spring Onion\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/0/0c/Spring_Onion.png\"/></a>)</i>",
                         "<b>All <a href=\"https://stardewvalleywiki.com/Minerals#Foraged_Minerals\" title=\"Minerals\">Foraged Minerals</a></b>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Minerals#Gems\" title=\"Minerals\">Gems</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Diamond\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/ea/Diamond.png\"/></div> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Prismatic Shard\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Minerals#Gems\" title=\"Minerals\">Gems</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Diamond\" title=\"Diamond\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/ea/Diamond.png\"/></a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Prismatic_Shard\" title=\"Prismatic Shard\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png\"/></a>)</i>"
                     ],
                     "specific": []
                 },
@@ -4109,6 +4134,7 @@ let villager_data = {
         {
             "name": "Marnie",
             "image": "https://stardewvalleywiki.com/mediawiki/images/5/52/Marnie.png",
+            "url": "https://stardewvalleywiki.com/Marnie",
             "gifts": {
                 "love": {
                     "broad": [
@@ -4140,7 +4166,7 @@ let villager_data = {
                 "like": {
                     "broad": [
                         "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b>",
-                        "<b>All Eggs</b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></div>)</i>",
+                        "<b>All Eggs</b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Void_Egg\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></a>)</i>",
                         "<b>All Milk</b>"
                     ],
                     "specific": [
@@ -4154,7 +4180,7 @@ let villager_data = {
                 "neutral": {
                     "broad": [
                         "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Neutrals\" title=\"Friendship\">Universal Neutrals</a></b>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Salmonberry\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -4211,7 +4237,7 @@ let villager_data = {
                 },
                 "dislike": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Clay\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a2/Clay.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Clay\" title=\"Clay\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a2/Clay.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -4253,6 +4279,7 @@ let villager_data = {
         {
             "name": "Pam",
             "image": "https://stardewvalleywiki.com/mediawiki/images/d/da/Pam.png",
+            "url": "https://stardewvalleywiki.com/Pam",
             "gifts": {
                 "love": {
                     "broad": [
@@ -4299,7 +4326,7 @@ let villager_data = {
                 "like": {
                     "broad": [
                         "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Cactus Fruit\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/3/32/Cactus_Fruit.png\"/></div>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Cactus_Fruit\" title=\"Cactus Fruit\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/3/32/Cactus_Fruit.png\"/></a>)</i>",
                         "<b>All Milk</b>"
                     ],
                     "specific": [
@@ -4313,7 +4340,7 @@ let villager_data = {
                 "neutral": {
                     "broad": [
                         "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Neutrals\" title=\"Friendship\">Universal Neutrals</a></b>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fish#Fish_Types\" title=\"Fish\">Fish</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Carp\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a8/Carp.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Octopus\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/5a/Octopus.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Snail\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/d/d2/Snail.png\"/></div>, &amp; <div class=\"gift-img fancy-tooltip\" title=\"Squid\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/81/Squid.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fish#Fish_Types\" title=\"Fish\">Fish</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Carp\" title=\"Carp\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a8/Carp.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Octopus\" title=\"Octopus\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/5a/Octopus.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Snail\" title=\"Snail\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/d/d2/Snail.png\"/></a>, &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Squid\" title=\"Squid\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/81/Squid.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -4408,6 +4435,7 @@ let villager_data = {
         {
             "name": "Pierre",
             "image": "https://stardewvalleywiki.com/mediawiki/images/7/7e/Pierre.png",
+            "url": "https://stardewvalleywiki.com/Pierre",
             "gifts": {
                 "love": {
                     "broad": [
@@ -4423,8 +4451,8 @@ let villager_data = {
                 },
                 "like": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Corn\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f8/Corn.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Garlic\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/cc/Garlic.png\"/></div>, <b><a href=\"https://stardewvalleywiki.com/Minerals#Foraged_Minerals\" title=\"Minerals\">Foraged Minerals</a></b>, <b><a href=\"https://stardewvalleywiki.com/Minerals#Gems\" title=\"Minerals\">Gems</a></b> other than <div class=\"gift-img fancy-tooltip\" title=\"Diamond\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/ea/Diamond.png\"/></div> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Prismatic Shard\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Parsnip Soup\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/7/76/Parsnip_Soup.png\"/></div>, &amp; <div class=\"gift-img fancy-tooltip\" title=\"Tortilla\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/d/d7/Tortilla.png\"/></div>)</i>",
-                        "<b>All Eggs</b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></div>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Corn\" title=\"Corn\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f8/Corn.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Garlic\" title=\"Garlic\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/cc/Garlic.png\"/></a>, <b><a href=\"https://stardewvalleywiki.com/Minerals#Foraged_Minerals\" title=\"Minerals\">Foraged Minerals</a></b>, <b><a href=\"https://stardewvalleywiki.com/Minerals#Gems\" title=\"Minerals\">Gems</a></b> other than <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Diamond\" title=\"Diamond\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/ea/Diamond.png\"/></a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Prismatic_Shard\" title=\"Prismatic Shard\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Parsnip_Soup\" title=\"Parsnip Soup\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/7/76/Parsnip_Soup.png\"/></a>, &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Tortilla\" title=\"Tortilla\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/d/d7/Tortilla.png\"/></a>)</i>",
+                        "<b>All Eggs</b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Void_Egg\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></a>)</i>",
                         "<b>All Milk</b>"
                     ],
                     "specific": [
@@ -4443,7 +4471,7 @@ let villager_data = {
                 "neutral": {
                     "broad": [
                         "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Neutrals\" title=\"Friendship\">Universal Neutrals</a></b>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Salmonberry\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></a>)</i>"
                     ],
                     "specific": []
                 },
@@ -4451,7 +4479,7 @@ let villager_data = {
                     "broad": [
                         "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fish#Fish_Types\" title=\"Fish\">Fish</a>)</i>",
                         "<b>All <a href=\"https://stardewvalleywiki.com/Minerals#Foraged_Minerals\" title=\"Minerals\">Foraged Minerals</a></b>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Minerals#Gems\" title=\"Minerals\">Gems</a></b> <i>(other than <div class=\"gift-img fancy-tooltip\" title=\"Diamond\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/ea/Diamond.png\"/></div> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Prismatic Shard\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Minerals#Gems\" title=\"Minerals\">Gems</a></b> <i>(other than <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Diamond\" title=\"Diamond\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/ea/Diamond.png\"/></a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Prismatic_Shard\" title=\"Prismatic Shard\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -4544,6 +4572,7 @@ let villager_data = {
         {
             "name": "Robin",
             "image": "https://stardewvalleywiki.com/mediawiki/images/1/1b/Robin.png",
+            "url": "https://stardewvalleywiki.com/Robin",
             "gifts": {
                 "love": {
                     "broad": [
@@ -4571,7 +4600,7 @@ let villager_data = {
                     "broad": [
                         "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b>",
                         "<b>All Milk</b>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Peach\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/e2/Peach.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Peach\" title=\"Peach\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/e2/Peach.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -4589,7 +4618,7 @@ let villager_data = {
                 "neutral": {
                     "broad": [
                         "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Neutrals\" title=\"Friendship\">Universal Neutrals</a></b>",
-                        "<b>All Eggs</b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></div>)</i>"
+                        "<b>All Eggs</b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Void_Egg\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -4646,7 +4675,7 @@ let villager_data = {
                 },
                 "dislike": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Hardwood\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/ed/Hardwood.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Hardwood\" title=\"Hardwood\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/ed/Hardwood.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -4673,6 +4702,7 @@ let villager_data = {
         {
             "name": "Sandy",
             "image": "https://stardewvalleywiki.com/mediawiki/images/4/4e/Sandy.png",
+            "url": "https://stardewvalleywiki.com/Sandy",
             "gifts": {
                 "love": {
                     "broad": [
@@ -4726,8 +4756,8 @@ let villager_data = {
                 },
                 "neutral": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Neutrals\" title=\"Friendship\">Universal Neutrals</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Wool\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/3/34/Wool.png\"/></div>)</i>",
-                        "<b>All Eggs</b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Neutrals\" title=\"Friendship\">Universal Neutrals</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Wool\" title=\"Wool\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/3/34/Wool.png\"/></a>)</i>",
+                        "<b>All Eggs</b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Void_Egg\" title=\"Void Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -4815,6 +4845,7 @@ let villager_data = {
         {
             "name": "Vincent",
             "image": "https://stardewvalleywiki.com/mediawiki/images/f/f1/Vincent.png",
+            "url": "https://stardewvalleywiki.com/Vincent",
             "gifts": {
                 "love": {
                     "broad": [
@@ -4840,7 +4871,7 @@ let villager_data = {
                 },
                 "like": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <b><a href=\"https://stardewvalleywiki.com/Vegetables\" title=\"Vegetables\">Vegetables</a></b> and <b><a href=\"https://stardewvalleywiki.com/Artisan_Goods\" title=\"Artisan Goods\">Artisan Goods</a></b> other than <div class=\"gift-img fancy-tooltip\" title=\"Mead\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/84/Mead.png\"/></div> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Oil\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/0/06/Oil.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <b><a href=\"https://stardewvalleywiki.com/Vegetables\" title=\"Vegetables\">Vegetables</a></b> and <b><a href=\"https://stardewvalleywiki.com/Artisan_Goods\" title=\"Artisan Goods\">Artisan Goods</a></b> other than <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Mead\" title=\"Mead\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/84/Mead.png\"/></a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Oil\" title=\"Oil\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/0/06/Oil.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -4864,10 +4895,10 @@ let villager_data = {
                 },
                 "dislike": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Clay\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a2/Clay.png\"/></div>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Clay\" title=\"Clay\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a2/Clay.png\"/></a>)</i>",
                         "<b>All Eggs</b>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Coconut\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/2/2f/Coconut.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Grape\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/c2/Grape.png\"/></div>, &amp; <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a>)</i>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Vegetables\" title=\"Vegetables\">Vegetables</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Hops\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Hops.png\"/></div> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Wheat\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/e2/Wheat.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Coconut\" title=\"Coconut\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/2/2f/Coconut.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Grape\" title=\"Grape\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/c2/Grape.png\"/></a>, &amp; <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Vegetables\" title=\"Vegetables\">Vegetables</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Hops\" title=\"Hops\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Hops.png\"/></a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Wheat\" title=\"Wheat\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/e2/Wheat.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -4930,7 +4961,7 @@ let villager_data = {
                 "hate": {
                     "broad": [
                         "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Hates\" title=\"Friendship\">Universal Hates</a></b>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Artisan_Goods\" title=\"Artisan Goods\">Artisan Goods</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Mead\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/84/Mead.png\"/></div> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Oil\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/0/06/Oil.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Artisan_Goods\" title=\"Artisan Goods\">Artisan Goods</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Mead\" title=\"Mead\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/84/Mead.png\"/></a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Oil\" title=\"Oil\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/0/06/Oil.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -4950,6 +4981,7 @@ let villager_data = {
         {
             "name": "Willy",
             "image": "https://stardewvalleywiki.com/mediawiki/images/8/82/Willy.png",
+            "url": "https://stardewvalleywiki.com/Willy",
             "gifts": {
                 "love": {
                     "broad": [
@@ -5000,7 +5032,7 @@ let villager_data = {
                 },
                 "like": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Life Elixir\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/6/6e/Life_Elixir.png\"/></div>, and <b>All <a href=\"https://stardewvalleywiki.com/Cooking\" title=\"Cooking\">Cooking</a></b> other than the dishes listed below)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Likes\" title=\"Friendship\">Universal Likes</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Life_Elixir\" title=\"Life Elixir\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/6/6e/Life_Elixir.png\"/></a>, and <b>All <a href=\"https://stardewvalleywiki.com/Cooking\" title=\"Cooking\">Cooking</a></b> other than the dishes listed below)</i>"
                     ],
                     "specific": [
                         {
@@ -5089,16 +5121,16 @@ let villager_data = {
                     "broad": [
                         "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Neutrals\" title=\"Friendship\">Universal Neutrals</a></b>",
                         "<b>All Eggs</b>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fish#Fish_Types\" title=\"Fish\">Fish</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Carp\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a8/Carp.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Catfish\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/9/99/Catfish.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Lingcod\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/87/Lingcod.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Octopus\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/5a/Octopus.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Sea Cucumber\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a9/Sea_Cucumber.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Snail\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/d/d2/Snail.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Sturgeon\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/4/42/Sturgeon.png\"/></div>, &amp; <div class=\"gift-img fancy-tooltip\" title=\"Tiger Trout\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/0/01/Tiger_Trout.png\"/></div>)</i>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></div>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fish#Fish_Types\" title=\"Fish\">Fish</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Carp\" title=\"Carp\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a8/Carp.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Catfish\" title=\"Catfish\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/9/99/Catfish.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Lingcod\" title=\"Lingcod\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/87/Lingcod.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Octopus\" title=\"Octopus\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/5a/Octopus.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Sea_Cucumber\" title=\"Sea Cucumber\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/a/a9/Sea_Cucumber.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Snail\" title=\"Snail\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/d/d2/Snail.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Sturgeon\" title=\"Sturgeon\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/4/42/Sturgeon.png\"/></a>, &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Tiger_Trout\" title=\"Tiger Trout\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/0/01/Tiger_Trout.png\"/></a>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Salmonberry\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></a>)</i>",
                         "<b>All Milk</b>"
                     ],
                     "specific": []
                 },
                 "dislike": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fish#Fish_Types\" title=\"Fish\">Fish</a>, <div class=\"gift-img fancy-tooltip\" title=\"Gold Bar\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/4/4e/Gold_Bar.png\"/></div>, &amp; <div class=\"gift-img fancy-tooltip\" title=\"Iron Bar\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/6/6c/Iron_Bar.png\"/></div>)</i>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Cooking\" title=\"Cooking\">Cooking</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Baked Fish\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/9/94/Baked_Fish.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Bread\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/e1/Bread.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Carp Surprise\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/cc/Carp_Surprise.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Chowder\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/9/95/Chowder.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Crab Cakes\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/7/70/Crab_Cakes.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Crispy Bass\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/53/Crispy_Bass.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Fish Stew\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/6/6f/Fish_Stew.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Fish Taco\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/d/d5/Fish_Taco.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Fried Calamari\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/2/25/Fried_Calamari.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Fried Eel\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/84/Fried_Eel.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Fried Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/1/18/Fried_Egg.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Lobster Bisque\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/0/0a/Lobster_Bisque.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Salmon Dinner\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/8b/Salmon_Dinner.png\"/></div>, <div class=\"gift-img fancy-tooltip\" title=\"Strange Bun\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/5e/Strange_Bun.png\"/></div>, &amp; <div class=\"gift-img fancy-tooltip\" title=\"Trout Soup\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/4/48/Trout_Soup.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fish#Fish_Types\" title=\"Fish\">Fish</a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Gold_Bar\" title=\"Gold Bar\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/4/4e/Gold_Bar.png\"/></a>, &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Iron_Bar\" title=\"Iron Bar\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/6/6c/Iron_Bar.png\"/></a>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Cooking\" title=\"Cooking\">Cooking</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Baked_Fish\" title=\"Baked Fish\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/9/94/Baked_Fish.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Bread\" title=\"Bread\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/e/e1/Bread.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Carp_Surprise\" title=\"Carp Surprise\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/c/cc/Carp_Surprise.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Chowder\" title=\"Chowder\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/9/95/Chowder.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Crab_Cakes\" title=\"Crab Cakes\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/7/70/Crab_Cakes.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Crispy_Bass\" title=\"Crispy Bass\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/53/Crispy_Bass.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Fish_Stew\" title=\"Fish Stew\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/6/6f/Fish_Stew.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Fish_Taco\" title=\"Fish Taco\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/d/d5/Fish_Taco.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Fried_Calamari\" title=\"Fried Calamari\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/2/25/Fried_Calamari.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Fried_Eel\" title=\"Fried Eel\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/84/Fried_Eel.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Fried_Egg\" title=\"Fried Egg\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/1/18/Fried_Egg.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Lobster_Bisque\" title=\"Lobster Bisque\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/0/0a/Lobster_Bisque.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Salmon_Dinner\" title=\"Salmon Dinner\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/8/8b/Salmon_Dinner.png\"/></a>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Strange_Bun\" title=\"Strange Bun\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/5e/Strange_Bun.png\"/></a>, &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Trout_Soup\" title=\"Trout Soup\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/4/48/Trout_Soup.png\"/></a>)</i>"
                     ],
                     "specific": [
                         {
@@ -5184,6 +5216,7 @@ let villager_data = {
         {
             "name": "Wizard",
             "image": "https://stardewvalleywiki.com/mediawiki/images/c/c7/Wizard.png",
+            "url": "https://stardewvalleywiki.com/Wizard",
             "gifts": {
                 "love": {
                     "broad": [
@@ -5228,13 +5261,13 @@ let villager_data = {
                 "neutral": {
                     "broad": [
                         "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Neutrals\" title=\"Friendship\">Universal Neutrals</a></b>",
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a> &amp; <div class=\"gift-img fancy-tooltip\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Fruits\" title=\"Fruits\">Fruit</a></b> <i>(except <a href=\"https://stardewvalleywiki.com/Fruit_Trees\" title=\"Fruit Trees\">Fruit Tree Fruit</a> &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Salmonberry\" title=\"Salmonberry\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png\"/></a>)</i>"
                     ],
                     "specific": []
                 },
                 "dislike": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <b><a href=\"https://stardewvalleywiki.com/Minerals#Geode_Minerals\" title=\"Minerals\">Geode Minerals</a></b>, <div class=\"gift-img fancy-tooltip\" title=\"Solar Essence\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f4/Solar_Essence.png\"/></div>, &amp; <div class=\"gift-img fancy-tooltip\" title=\"Void Essence\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/1/1f/Void_Essence.png\"/></div>)</i>",
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Dislikes\" title=\"Friendship\">Universal Dislikes</a></b> <i>(except <b><a href=\"https://stardewvalleywiki.com/Minerals#Geode_Minerals\" title=\"Minerals\">Geode Minerals</a></b>, <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Solar_Essence\" title=\"Solar Essence\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/f/f4/Solar_Essence.png\"/></a>, &amp; <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Void_Essence\" title=\"Void Essence\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/1/1f/Void_Essence.png\"/></a>)</i>",
                         "<b>All Eggs</b>",
                         "<b>All Milk</b>"
                     ],
@@ -5308,7 +5341,7 @@ let villager_data = {
                 },
                 "hate": {
                     "broad": [
-                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Hates\" title=\"Friendship\">Universal Hates</a></b> <i>(except <div class=\"gift-img fancy-tooltip\" title=\"Slime\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/3/38/Slime.png\"/></div>)</i>"
+                        "<b>All <a href=\"https://stardewvalleywiki.com/Friendship#Universal_Hates\" title=\"Friendship\">Universal Hates</a></b> <i>(except <a class=\"gift-img fancy-tooltip\" href=\"https://stardewvalleywiki.com/Slime\" title=\"Slime\"><img src=\"https://stardewvalleywiki.com/mediawiki/images/3/38/Slime.png\"/></a>)</i>"
                     ],
                     "specific": []
                 }

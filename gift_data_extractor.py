@@ -75,11 +75,11 @@ def extract_table_data(soup, base_url, table_span_id):
             
             img_url = get_item_img_url(base_url, anchor['href'])
             if img_url is not None:
-                div = soup.new_tag('div', title=anchor.text)
-                div['class'] = 'gift-img fancy-tooltip'
-                div.insert(0, soup.new_tag('img', src=img_url))
+                a_tag = soup.new_tag('a', title=anchor.text, href=anchor['href'])
+                a_tag['class'] = 'gift-img fancy-tooltip'
+                a_tag.insert(0, soup.new_tag('img', src=img_url))
 
-                anchor.insert_after(div)
+                anchor.insert_after(a_tag)
                 anchor.extract()
 
         broad_gifts.append(item.decode_contents(formatter="html"))

@@ -6,7 +6,7 @@ function init() {
 
     for(let villager of villagers) {
         let imageCell = $('<div class="cell villager-img-cell"><img class="villager-img" src="' + villager.image + '"></div>');
-        let nameCell = $('<div class="cell villager-name-cell">' + villager.name + '</div>');
+        let nameCell = $('<div class="cell villager-name-cell"><a href="' + villager.url + '">' + villager.name + '</a></div>');
 
         villagerCells[villager.name] = [];
 

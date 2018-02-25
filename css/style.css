@@ -57,7 +57,7 @@ header {
 }
 
 header .logo {
-    height: 75px;
+    height: 100px;
 }
 
 header h1 {
@@ -103,6 +103,10 @@ nav .nav-tab.selected {
     z-index: 1;
 }
 
+nav .nav-tab img {
+    height: 40px;
+}
+
 #content {
     padding: 10px;
     background-color: #FDBA64;
@@ -132,7 +136,7 @@ nav .nav-tab.selected {
 }
 
 .search-bar {
-    width: 150px;
+    width: 200px;
     font-family: 'Stardew Valley';
     font-size: 25px;
     padding: 5px;
@@ -158,6 +162,7 @@ nav .nav-tab.selected {
     grid-template-columns: min-content min-content 1.5fr 1fr 3fr 1fr;
     grid-row-gap: 15px;
     grid-column-gap: 5px;
+    flex-grow: 1;
 }
 
 #gifts-table .cell {
@@ -196,14 +201,12 @@ h2 {
 #gifts-table .villager-img-cell {
     background-color: #FDBA64;
     padding: 0;
-    height: fit-content;
-    width: fit-content;
+    height: 65px;
     border: 5px solid #AC3E0B;
 }
 
 .villager-img {
     width: 65px;
-    margin-bottom: -5px;
 }
 
 .gift-img {
