@@ -260,3 +260,11 @@ h2 {
 #universal-panel .content div {
     margin-bottom: 10px;
 }
+
+#footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #FDBA64;
+    border: 5px solid #AC3E0B;
+    border-radius: 10px;
+}
